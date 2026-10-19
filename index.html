@@ -26,7 +26,7 @@ header.top .tot{font-size:13px;opacity:.9;text-align:right;line-height:1.35}
 </style></head><body>
 <header class="top">
   <h1>富邦產險 繳費條碼（115/11/02）</h1>
-  <div class="tot"><b id="prog">0 / 1</b> 張<br>合計 NT$ 23,195</div>
+  <div class="tot"><b id="prog">0 / 7</b> 張<br>合計 NT$ 65,698</div>
 </header>
 <div class="note">請把手機亮度調到最亮，一張一張讓店員掃描：每張都要掃 3 段條碼（①②③）。掃完點「已繳完成」再往下滑。最後繳款期限 115 年 11 月 2 日。</div>
 <div class="wrap" id="wrap"></div>
@@ -49,7 +49,7 @@ function code39svg(data,h){
   x+=nw*2;
   return '<svg viewBox="0 0 '+x+' '+h+'" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="'+x+'" height="'+h+'" fill="#fff"/><g fill="#000">'+rects+'</g></svg>';
 }
-const DATA=[{"name": "同盈商行", "sub": "企新險 · 0426AEDL010173 · 期限115/11/02", "amount": 23195, "seg": ["151102I0B", "5660670412950000", "9999A7000023195"]}];
+const DATA=[{"name": "盈利商行", "sub": "企新險 · 0426AEL0E04272 · 期限115/11/02", "amount": 804, "seg": ["151102I0B", "5660670414600000", "999913000000804"]}, {"name": "盈利商行", "sub": "企新險 · 0426AEDL010174 · 期限115/11/02", "amount": 15825, "seg": ["151102I0B", "5660670414510000", "99992X000015825"]}, {"name": "盈利商行", "sub": "企新險 · 0426APL0005100 · 期限115/11/02", "amount": 3832, "seg": ["151102I0B", "5660670230730000", "999926000003832"]}, {"name": "盈利商行", "sub": "火險 · 042026FSC00055 · 期限115/11/02", "amount": 3100, "seg": ["151102I0B", "5530120417880000", "99996X000003100"]}, {"name": "家欣商行", "sub": "企新險 · 0426AEDL010171 · 期限115/11/02", "amount": 18004, "seg": ["151102I0B", "5660670388230000", "999986000018004"]}, {"name": "家欣商行", "sub": "企新險 · 0426AEL0E04270 · 期限115/11/02", "amount": 938, "seg": ["151102I0B", "5660670388380000", "9999B6000000938"]}, {"name": "同盈商行", "sub": "企新險 · 0426AEDL010173 · 期限115/11/02", "amount": 23195, "seg": ["151102I0B", "5660670412950000", "9999A7000023195"]}];
 const n=DATA.length;
 const wrap=document.getElementById('wrap');
 const circ=['①','②','③','④','⑤'];
